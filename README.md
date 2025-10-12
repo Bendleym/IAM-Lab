@@ -40,5 +40,5 @@ It showcases how organizations audit user privileges, enforce least privilege, a
 
 ---
 
-💻 **GitHub Repo:** [github.com/Bendleym/IAM-Privilege-Audit-Lab](https://github.com/Bendleym/IAM-Privilege-Audit-Lab)  
+💻 **GitHub Repo:** [github.com/Bendleym/IAM-Privilege-Audit-Lab](https://github.com/Bendleym/IAM-Lab)  
 📧 **Contact:** Bendleym@yahoo.com | [LinkedIn](https://linkedin.com/in/bendley-milord)
