@@ -22,3 +22,22 @@ It demonstrates how organizations audit privileges, enforce least privilege, and
 ---
 
 ### Folder Structure
+
+---
+
+### Sample Deliverables
+- Access Control Policy  
+- Privilege Audit Report  
+- User Provisioning Checklist  
+- PowerShell automation scripts for account auditing  
+
+---
+
+### Next Steps
+- Integrate **Azure AD** and conditional access for hybrid IAM simulation  
+- Add **compliance mapping** to NIST 800-53 and ISO 27001 Annex A controls  
+
+---
+
+📂 **Repo link:** [github.com/Bendleym/IAM-Privilege-Audit-Lab](https://github.com/Bendleym/IAM-Privilege-Audit-Lab)  
+📧 **Contact:** Bendleym@yahoo.com | [LinkedIn](https://linkedin.com/in/bendley-milord)
