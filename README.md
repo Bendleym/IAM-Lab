@@ -48,24 +48,6 @@ It showcases how organizations audit user privileges, enforce least privilege, a
 
 ---
 
-### 🧩 Tools Used  
-PowerShell, Active Directory, Group Policy Management Console (GPMC), Windows Server 2019, Windows 10
-
----
-
-### 🧠 Goals  
-- Enumerate and audit high-privilege accounts and groups  
-- Automate user access review reports  
-- Apply and verify least-privilege policies via PowerShell  
-- Document IAM controls mapped to NIST & CIS standards  
-
----
-
-### 🧩 Tools Used  
-PowerShell, Active Directory, Group Policy Management Console (GPMC), Windows Server 2019, Windows 10
-
----
-
 *(Documentation, screenshots, and results will be added as the lab progresses.)*
 
 ---
