@@ -64,7 +64,7 @@ Strengthened understanding of IAM and least-privilege enforcement.
 <img width="423" height="548" alt="Capture4" src="https://github.com/user-attachments/assets/184e5254-9780-4326-b240-29ae1932326c" />
 
 ### 🖼️ PowerShell Privilege Audit  
-(<img width="966" height="516" alt="Capture6" src="https://github.com/user-attachments/assets/aa50ef6f-15a8-4335-838b-1e39411b0251" />0)
+<img width="966" height="516" alt="Capture6" src="https://github.com/user-attachments/assets/aa50ef6f-15a8-4335-838b-1e39411b0251" />
 
 
 ---
