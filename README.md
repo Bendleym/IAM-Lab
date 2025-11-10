@@ -53,10 +53,17 @@ Strengthened understanding of IAM and least-privilege enforcement.
 ---
 
 ## 📎 Screenshots  
-OU structure  
-User examples  
-Domain Admin membership  
-PowerShell privilege audit  
+### 🖼️ OU Structure  
+![OU Structure](Capture2.PNG)
+
+### 🖼️ User Examples  
+![User Examples](Capture3.PNG)
+
+### 🖼️ Domain Admin Membership  
+![Domain Admin Membership](Capture4.PNG)
+
+### 🖼️ PowerShell Privilege Audit  
+![PowerShell Privilege Audit](Capture6.PNG) 
 
 ---
 
