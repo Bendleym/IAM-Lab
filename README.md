@@ -1,56 +1,65 @@
 # 🔐 IAM Privilege Audit & Automation Lab
 
-### 🧩 Overview
-This project simulates an enterprise **Identity and Access Management (IAM)** environment using **Active Directory** and **PowerShell**.  
-It showcases how organizations audit user privileges, enforce least privilege, and automate access reviews.
+## 🧩 Overview  
+This lab simulates a real-world Identity and Access Management (IAM) environment using Active Directory and PowerShell.  
+It shows how organizations audit privileges, enforce least privilege, and automate access reviews for compliance and security.  
 
 ---
 
-### 🏗️ Architecture
-- **Domain Controller (DC01):** Windows Server 2019 running Active Directory Domain Services  
-- **Client Workstation (CLIENT01):** Windows 10 Pro joined to the domain  
-- **Tools Used:** Active Directory Users & Computers, Group Policy, PowerShell, Event Viewer  
+## 🏗️ Environment Setup  
+- Host: Windows Server 2022 (Domain Controller: DC01.lab.local)  
+- Client: Windows 10 Pro (domain-joined workstation)  
+- Tools Used: Active Directory Users & Computers, PowerShell, Group Policy  
 
 ---
 
-### 🚀 Key Highlights
-- Built a simulated AD domain and joined a workstation for role-based testing  
-- Conducted privilege audits across users, groups, and administrators  
-- Automated access reviews and least-privilege enforcement with PowerShell  
-- Documented IAM controls for provisioning, MFA, and recertification aligned with **NIST 800-53** and **CIS** standards  
+## ⚙️ Configuration Process  
+1. Installed Active Directory Domain Services and created a domain “lab.local.”  
+2. Created Organizational Units: IT, HR, Finance, Admins, ServiceAccounts.  
+3. Added sample users: John Doe, Jane Smith, Mark Lee, and Alice Admin.  
+4. Placed users into their respective department OUs.  
+5. Created security groups: IT_Group, HR_Group, Finance_Group, Admins_Group.  
+6. Added Alice Admin to the Domain Admins group for privileged access.  
 
 ---
 
-### 📂 Folder Structure
+## 🔍 Privilege Audit Using PowerShell  
+Commands used to validate IAM controls:  
 
+```powershell
+Get-ADUser -Filter * -Properties DistinguishedName | Select-Object Name, DistinguishedName
+Get-ADGroupMember "Domain Admins" | Select-Object Name, SamAccountName, objectClass
 
----
-
-### 📄 Sample Deliverables
-- Access Control Policy  
-- Privilege Audit Report  
-- User Provisioning Checklist  
-- PowerShell automation scripts for account auditing  
-
----
-
-### 🔭 Next Steps
-- Integrate **Azure AD** and conditional access for hybrid IAM simulation  
-- Map IAM policies to **ISO 27001 Annex A** and **NIST 800-53** controls  
+Get-ADGroup -Filter * | ForEach-Object {
+  Write-Host "`nGroup:" $_.Name -ForegroundColor Cyan
+  Get-ADGroupMember $_.Name | Select-Object Name, SamAccountName
+}
+```
 
 ---
 
-### 🧠 Goals  
-- Enumerate and audit high-privilege accounts and groups  
-- Automate user access review reports  
-- Apply and verify least-privilege policies via PowerShell  
-- Document IAM controls mapped to NIST & CIS standards  
+## 📊 Results  
+Verified least-privilege access model.  
+Confirmed only designated admin accounts had elevated rights.  
+Demonstrated IAM auditing aligned with NIST 800-53 AC-2 and CIS Control 5.  
 
 ---
 
-*(Documentation, screenshots, and results will be added as the lab progresses.)*
+## 🧠 Takeaways  
+Practiced identity provisioning and privilege auditing in AD.  
+Automated access reviews with PowerShell.  
+Strengthened understanding of IAM and least-privilege enforcement.  
 
 ---
 
-💻 **GitHub Repo:** [github.com/Bendleym/IAM-Privilege-Audit-Lab](https://github.com/Bendleym/IAM-Lab)  
-📧 **Contact:** Bendleym@yahoo.com | [LinkedIn](https://linkedin.com/in/bendley-milord)
+## 📎 Screenshots  
+OU structure  
+User examples  
+Domain Admin membership  
+PowerShell privilege audit  
+
+---
+
+## 💻 GitHub Repo  
+github.com/Bendleym/IAM-Lab  
+📧 Bendleym@yahoo.com | LinkedIn: linkedin.com/in/bendley-milord
