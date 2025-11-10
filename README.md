@@ -54,17 +54,17 @@ Strengthened understanding of IAM and least-privilege enforcement.
 
 ## 📎 Screenshots  
 ### 🖼️ OU Structure  
-![OU Structure](<img width="764" height="541" alt="Capture2" src="https://github.com/user-attachments/assets/799d3271-db90-45cb-aa5b-0f21a554c2e3" />)
+<img width="764" height="541" alt="Capture2" src="https://github.com/user-attachments/assets/799d3271-db90-45cb-aa5b-0f21a554c2e3" />
 
 ### 🖼️ User Examples  
-![User Examples](<img width="742" height="538" alt="Capture3" src="https://github.com/user-attachments/assets/f8ebf3bc-58cd-4c96-acf9-633b681c2318" />)
+<img width="742" height="538" alt="Capture3" src="https://github.com/user-attachments/assets/f8ebf3bc-58cd-4c96-acf9-633b681c2318" />
 
 
 ### 🖼️ Domain Admin Membership  
-![Domain Admin Membership](<img width="423" height="548" alt="Capture4" src="https://github.com/user-attachments/assets/184e5254-9780-4326-b240-29ae1932326c" />)
+<img width="423" height="548" alt="Capture4" src="https://github.com/user-attachments/assets/184e5254-9780-4326-b240-29ae1932326c" />
 
 ### 🖼️ PowerShell Privilege Audit  
-![PowerShell Privilege Audit](<img width="966" height="516" alt="Capture6" src="https://github.com/user-attachments/assets/aa50ef6f-15a8-4335-838b-1e39411b0251" />0)
+(<img width="966" height="516" alt="Capture6" src="https://github.com/user-attachments/assets/aa50ef6f-15a8-4335-838b-1e39411b0251" />0)
 
 
 ---
